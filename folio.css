@@ -1,0 +1,27 @@
+.visi-border {
+    border-color: deeppink;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+    padding: 8px;
+}
+
+.img1{
+    background-size:cover;
+    background-image: url('https://f4.bcbits.com/img/a3557775265_16.jpg');
+}
+
+.square {
+  position: relative;
+  width: 50%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.clipP {
+background-position: right 887px;
+}
