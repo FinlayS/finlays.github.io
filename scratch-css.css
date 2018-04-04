@@ -11,15 +11,10 @@
     background-image: url('https://f4.bcbits.com/img/a3557775265_16.jpg');
 }
 
-/*
-.cards-grid > * {
-  background-color: skyblue;
-}
-*/
-
 .square {
-  position: relative;
-  width: 50%;
+    position: relative;
+    width: 40%;
+    margin: 5% 0 5% 0 ;
 }
 
 .square:after {
@@ -30,4 +25,8 @@
 
 .clipP {
 background-position: right 877px;
+}
+
+.fah:hover{
+    color: #280505;
 }

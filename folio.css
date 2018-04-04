@@ -1,5 +1,5 @@
 .visi-border {
-    border-color: deeppink;
+/*    border-color: deeppink;*/
     border-width: 1px;
     border-style: solid;
     margin: 5px;
@@ -12,16 +12,28 @@
 }
 
 .square {
-  position: relative;
-  width: 50%;
+    position: relative;
+    width: 40%;
+    margin: 5% 0 5% 0 ;
 }
 
 .square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 
 .clipP {
-background-position: right 887px;
+    background-position: right 887px;
+}
+
+.fah:hover{
+    color: #280505;
+}
+
+.tt{
+    font-family: copperplate, fantasy;
+    color: #661414;
+    font-size: 36px;
+    text-align: center;    
 }
