@@ -1,9 +1,7 @@
 .visi-border {
-/*
     border-color: deeppink;
     border-width: 1px;
     border-style: solid;
-*/
     margin: 5px;
     padding: 8px;
 }
@@ -46,4 +44,9 @@
 }
 .button-hover:hover{
     color: #db6c3d;
+}
+
+.side-padding {
+    padding-left: 45px;
+    padding-right: 45px;
 }
