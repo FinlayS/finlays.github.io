@@ -1,9 +1,16 @@
 .visi-border {
     border-color: deeppink;
     border-width: 1px;
-    border-style: solid;
+    border-style: none;
     margin: 5px;
     padding: 8px;
+}
+.card-border{
+    border-color: #661414;
+    border-width: 2px;
+    border-style: ridge
+    margin: 95px;
+    padding: 78px;
 }
 
 .img1{
@@ -21,6 +28,11 @@
     content: "";
     display: block;
     padding-bottom: 100%;
+}
+
+.text-bot {
+    height: auto;
+    vertical-align: bottom;
 }
 
 .clipP {
