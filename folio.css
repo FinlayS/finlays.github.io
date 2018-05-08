@@ -15,13 +15,13 @@
 
 .img1{
     background-size:cover;
-    background-image: url('https://f4.bcbits.com/img/a3557775265_16.jpg');
+    background-image: url('https:////c1.staticflickr.com/1/961/41935918272_19433787d0_m.jpg');
 }
 
 .square {
     position: relative;
-    width: 40%;
-    margin: 5% 0 5% 0 ;
+    width: 60%;
+    margin: 5% 0 0 0 ;
 }
 
 .square:after {
@@ -30,8 +30,7 @@
     padding-bottom: 100%;
 }
 
-.text-bot {
-    height: auto;
+.text-bot { 
     vertical-align: bottom;
 }
 
@@ -48,6 +47,14 @@
     color: #661414;
     font-size: 36px;
     text-align: center;    
+}
+
+.ht{
+    font-family: copperplate, fantasy;
+    color: #661414;
+    font-size: 24px;
+    text-align: justify; 
+        margin: 0 8% 0 8% ;
 }
 
 .button {
