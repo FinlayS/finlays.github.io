@@ -43,14 +43,15 @@
 }
 
 .tt{
-    font-family: Lato, fantasy;
+    font-family: Lato;
+    font-weight:500;
     color: #661414;
     font-size: 56px;
-    text-align: center;    
+    text-align: left;    
 }
 
 .ht{
-    font-family: Lato, fantasy;
+    font-family: Lato;
     color: #661414;
     font-size: 24px;
     text-align: justify; 
