@@ -465,6 +465,10 @@ button, input, optgroup, select, textarea {
     box-sizing: border-box
 }
 
+:any-link {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
     .s-container {
         max-width: 728px
