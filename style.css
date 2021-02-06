@@ -266,7 +266,7 @@ button, input, optgroup, select, textarea {
 }
 
 .section.header {
-    padding: 80px 10px;
+    padding: 100px 10px;
     background-color: #90e3fd;
     background-image: linear-gradient(135deg, rgba(217, 0, 79, 0.88), rgba(227, 72, 0, 0.82)), url("https://daks2k3a4ib2z.cloudfront.net/53057ebe93a4fb23200001b5/5306596def0d48315c000043_nature.jpg");
     background-position: 0% 0%, 50% 50%;
@@ -278,6 +278,7 @@ button, input, optgroup, select, textarea {
     background-image: linear-gradient(135deg, rgba(145, 0, 217, 0.88), rgba(0, 182, 227, 0.82)),
     url("https://c1.staticflickr.com/1/802/41593765551_18134cd54e_k.jpg");
     background-position: 50% 35%;
+    padding-bottom: 160px;
 }
 
 .section.grey {
@@ -307,8 +308,8 @@ button, input, optgroup, select, textarea {
 }
 
 .slide {
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 100px;
+    padding-bottom: 120px;
     background-position: 0% 0%, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -505,6 +506,10 @@ button, input, optgroup, select, textarea {
     .section.header {
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .section.header._2 {
+        padding: 50px 10px 64px;
     }
 
     .project-link {
