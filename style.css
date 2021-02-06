@@ -161,7 +161,7 @@ button, input, optgroup, select, textarea {
 }
 
 .footer-social-link {
-    margin-left: 24px;
+    margin-left: 8%;
 }
 
 .fade {
@@ -284,6 +284,13 @@ button, input, optgroup, select, textarea {
 .section.grey {
     background-color: #ededed;
     color: #696969;
+}
+
+.section-dark-grey {
+    background-color: #d1d1d1;
+    color: #434343;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section.white {
