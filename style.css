@@ -11,7 +11,7 @@ body {
     padding-top: 66px;
     font-family: Roboto, sans-serif;
     color: #333;
-    font-size: 14px;
+    /*font-size: 14px;*/
     line-height: 20px;
 }
 
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    margin: 0px 0px 32px;
+    margin: 5px 0px 5px;
     font-size: 32px;
     line-height: 36px;
     font-weight: 300;
@@ -87,6 +87,10 @@ button, input, optgroup, select, textarea {
 
 .back-link:hover {
     opacity: 1;
+}
+
+.bottom-padding {
+    margin: 5px 0px 32px;
 }
 
 .button {
@@ -255,13 +259,27 @@ button, input, optgroup, select, textarea {
 }
 
 .section {
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 80px;
     color: #5c5c5c;
 }
 
+.section.about {
+    background-color: #ededed;
+    color: #696969;
+}
+
 .section.contact {
     padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section.list {
+    padding-bottom: 0px;
+}
+
+.section.wrapper {
+    padding-top: 10px;
     padding-bottom: 60px;
 }
 
@@ -289,18 +307,19 @@ button, input, optgroup, select, textarea {
 .section-dark-grey {
     background-color: #d1d1d1;
     color: #434343;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.section.white {
-    border-top: 1px solid #ededed;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .section.projects {
     padding-bottom: 0px;
     border-top: 1px solid #ededed;
     color: #4d4d4d;
+}
+
+
+.section.white {
+    border-top: 1px solid #ededed;
 }
 
 .slideshow-container {
@@ -385,7 +404,14 @@ button, input, optgroup, select, textarea {
 }
 
 .s-col-4 {
-    width: 33.33333333%
+    width: 33.33333333%;
+}
+
+.s-col-5 {
+    margin: 5px 50px 5px 5px;
+    width: 20%;
+    background-color: #d1d1d1;
+    color: #fff;
 }
 
 .s-col-6 {
@@ -505,7 +531,7 @@ button, input, optgroup, select, textarea {
         font-size: 22px;
     }
 
-    .section {
+    .section.grey {
         padding-top: 29px;
         padding-bottom: 29px;
     }
@@ -517,6 +543,11 @@ button, input, optgroup, select, textarea {
 
     .section.header._2 {
         padding: 50px 10px 64px;
+    }
+
+    .section.list {
+        padding-top: 53px;
+        padding-bottom: 0px;
     }
 
     .project-link {
@@ -580,12 +611,38 @@ button, input, optgroup, select, textarea {
 }
 
 @media screen and (max-width: 479px) {
+    .bottom-padding {
+        margin: 5px 0px 5px;
+    }
+
+    .section.footer {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
+    .section.projects {
+        padding-top: 29px;
+    }
+
+    .section.white {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
     .s-container {
         max-width: none
     }
 
     .s-col {
         width: 100%
+    }
+
+    .s-col-5 {
+        margin: 5px 0px 5px;
+    }
+
+    .s-col-8 {
+        padding-top: 8px;
     }
 }
 
